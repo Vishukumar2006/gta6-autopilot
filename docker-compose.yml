@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  gta6-autopilot:
+    build: .
+    container_name: gta6-autopilot
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+      - ./config.json:/app/config.json
+    environment:
+      - PYTHONUNBUFFERED=1

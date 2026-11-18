@@ -1,0 +1,56 @@
+{
+  "low_spec_mode": true,
+  "port": 8080,
+  "host": "0.0.0.0",
+  "log_level": "INFO",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "low_spec_width": 720,
+    "low_spec_height": 1280,
+    "fps": 30,
+    "min_clip_duration_sec": 18,
+    "max_clip_duration_sec": 58,
+    "max_cpu_threads": 2,
+    "ffmpeg_preset": "ultrafast",
+    "hw_accel": "auto",
+    "banner_bg_color": "#FF007F",
+    "banner_text_color": "#FFFFFF",
+    "subtitles_color": "#FFE600",
+    "subtitles_font_size": 42
+  },
+  "stream": {
+    "keywords": [
+      "GTA 6",
+      "Grand Theft Auto VI",
+      "GTA VI gameplay",
+      "GTA 6 leaks",
+      "Rockstar Games GTA 6",
+      "Vice City GTA 6"
+    ],
+    "min_view_count": 25,
+    "poll_interval_seconds": 180,
+    "max_streams_per_cycle": 3,
+    "chunk_record_duration_sec": 120
+  },
+  "social": {
+    "dry_run": true,
+    "youtube_client_secrets_file": "",
+    "youtube_token_file": "",
+    "youtube_channel_id": "",
+    "youtube_default_tags": [
+      "gta6",
+      "gtavi",
+      "gta 6",
+      "rockstargames",
+      "gaming",
+      "shorts",
+      "vicecity",
+      "viral"
+    ],
+    "instagram_access_token": "",
+    "instagram_account_id": "",
+    "min_interval_between_posts_minutes": 60,
+    "max_posts_per_day": 18
+  }
+}
